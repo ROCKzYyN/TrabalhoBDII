@@ -1,6 +1,8 @@
+# nao sei se vai ser necessario
+
 from configparser import ConfigParser
 
-# Função que pega as configurações do banco do arquivo database.ini
+# Função que pega as configurações do banco do arquivo banco.ini
 def db_config(filename='banco.ini', section='postgresql'):
   parser = ConfigParser()
   parser.read(filename)

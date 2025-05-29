@@ -1,3 +1,5 @@
+# nao sei se vai ser necessario
+
 import json
 
 def create_table(cursor):
