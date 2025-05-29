@@ -1,0 +1,7 @@
+{
+    "INICIO":{
+        "mat": [1, 2],
+        "nome": ["João", "Maria"],
+        "idade": [25, 30]
+    }
+}
