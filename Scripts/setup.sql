@@ -11,7 +11,7 @@ CREATE TABLE log_operacoes (
     id SERIAL PRIMARY KEY,
     transacao_id INTEGER NOT NULL,
     operacao VARCHAR(10) NOT NULL,
-    tabela VARCHAR(50) NOT NULL,
+    tabela VARCHAR(50),
     id_registro INTEGER,
     dados_antigos JSONB,
     dados_novos JSONB,
