@@ -2,13 +2,13 @@
   <h1 align="center">TrabalhoBDII</h1>
 
   <p align="center">
+   Alunos: João Vithor Knakievicz e Wictor Greselli.
    Implementação de um mecanismo de log Redo usando o SGBD.
     <br />
   </p>
 </div>
 
 ## 💡 Descrição
-Alunos: João Vithor Knakievicz e Wictor Greselli
 É um projeto da disciplina de Banco de Dados II que tem como objetivo implementar um mecanismo de logging e recuperação de dados para tabelas temporárias (`UNLOGGED`) no PostgreSQL. O sistema utiliza triggers para registrar operações em uma tabela de log e um script em Python (`redo.py`) para recuperar os dados perdidos após uma queda do sistema.
 ---
 
